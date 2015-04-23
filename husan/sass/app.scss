@@ -1,0 +1,44 @@
+@import "color";
+
+body{
+  height: 1000px;
+  // background-color: $main-color;
+  // width: 100px;
+}
+header{
+  height: 50px;
+  width: 100%;
+  background-color:$main-bg-color;
+  color:$w-color;
+  .logo{
+    height: 50px;
+    float: left;
+    font-size: 36px;
+    line-height: 50px;
+    margin-left: 30px;
+  }
+  .navbar{
+    float: left;
+    margin-left: 20px;
+    ul{
+      list-style: none;
+      li{
+        height: 50px;
+        float: left;
+        line-height: 50px;
+        font-size: 16px;
+        a{
+          font-family:$ff;
+          color: #fff;
+          padding: 0 10px;
+          display: inline-block;
+          &:hover{
+            color: $main-bg-color;
+            background-color:#fff;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
