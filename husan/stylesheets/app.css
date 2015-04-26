@@ -1,16 +1,16 @@
+@charset "UTF-8";
 /* line 3, ../sass/app.scss */
 body {
-  height: 1000px;
+  background: url(../images/2.jpg);
 }
 
-/* line 8, ../sass/app.scss */
+/* line 6, ../sass/app.scss */
 header {
   height: 50px;
   width: 100%;
-  background-color: #56bc8a;
   color: #fff;
 }
-/* line 13, ../sass/app.scss */
+/* line 10, ../sass/app.scss */
 header .logo {
   height: 50px;
   float: left;
@@ -18,32 +18,106 @@ header .logo {
   line-height: 50px;
   margin-left: 30px;
 }
-/* line 20, ../sass/app.scss */
+/* line 17, ../sass/app.scss */
 header .navbar {
   float: left;
   margin-left: 20px;
 }
-/* line 23, ../sass/app.scss */
-header .navbar ul {
-  list-style: none;
+
+/* line 43, ../sass/app.scss */
+.main {
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 50px;
 }
-/* line 25, ../sass/app.scss */
-header .navbar ul li {
-  height: 50px;
-  float: left;
-  line-height: 50px;
-  font-size: 16px;
-}
-/* line 30, ../sass/app.scss */
-header .navbar ul li a {
-  font-family: "A";
+/* line 48, ../sass/app.scss */
+.main h1 {
+  margin: 0 auto;
   color: #fff;
-  padding: 0 10px;
-  display: inline-block;
+  font-size: 36px;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 20px;
 }
-/* line 35, ../sass/app.scss */
-header .navbar ul li a:hover {
-  color: #56bc8a;
-  background-color: #fff;
+/* line 56, ../sass/app.scss */
+.main p {
+  margin: 0 auto;
+  color: #fff;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  width: 400px;
+}
+/* line 63, ../sass/app.scss */
+.main .form {
+  width: 300px;
+  margin: 30px auto 0 auto;
+}
+/* line 67, ../sass/app.scss */
+.main .form form input {
+  height: 36px;
+  line-height: 36px;
+  width: 300px;
+  text-indent: 1em;
+  border: none;
+}
+/* line 73, ../sass/app.scss */
+.main .form form input:nth-child(2) {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+/* line 83, ../sass/app.scss */
+.main .form form input:focus {
+  outline: none;
+}
+/* line 87, ../sass/app.scss */
+.main .form form button {
+  height: 36px;
+  line-height: 36px;
+  width: 300px;
+  margin-top: 10px;
+  background-color: #529ecc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+/* line 98, ../sass/app.scss */
+.main .form .go-in {
+  width: 300px;
+  text-decoration: center;
+  height: 36px;
+  color: #fff;
+  text-align: center;
+}
+/* line 104, ../sass/app.scss */
+.main .form .go-in a {
+  margin-top: 10px;
+  color: inherit;
   text-decoration: none;
+  line-height: 36px;
+  font-size: 20px;
+}
+/* line 110, ../sass/app.scss */
+.main .form .go-in a span {
+  margin-right: 5px;
+}
+
+/* line 119, ../sass/app.scss */
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 47px;
+  width: 100%;
+  background-color: #56bc8a;
+  font-size: 36px;
+  font-family: "Segoe Print";
+  text-align: center;
+  color: #fff;
+  line-height: 47px;
+  border-top: 3px solid #4da87b;
+}
+/* line 131, ../sass/app.scss */
+footer span {
+  cursor: pointer;
+  line-height: inherit;
 }
